@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { AppProviders } from '@/components/app-providers'
 import { AppLayout } from '@/components/app-layout'
-import React from 'react'
 
 export const metadata: Metadata = {
   title: 'Placeholder',
@@ -13,7 +12,7 @@ const links: { label: string; path: string }[] = [
   // More links...
   { label: 'Home', path: '/' },
   { label: 'Account', path: '/account' },
-  { label: 'Counter Program', path: '/counter' },
+  { label: 'Orderbook Program', path: '/orderbook' },
 ]
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
